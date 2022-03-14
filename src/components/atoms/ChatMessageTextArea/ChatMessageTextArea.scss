@@ -1,0 +1,8 @@
+.chat-message-text-area {
+  flex: 8;
+  resize: none;
+  padding: 1rem;
+  font-size: 1rem;
+  color: var(--text-color);
+  overflow-y: scroll;
+}

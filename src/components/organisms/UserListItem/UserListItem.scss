@@ -1,0 +1,19 @@
+.user-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  box-shadow: 0px 1px 6px 3px var(--shadow-color);
+  padding: 2rem;
+  gap: 1rem;
+  &__detail {
+    font-size: 1rem;
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    label {
+      font-weight: normal;
+    }
+  }
+}

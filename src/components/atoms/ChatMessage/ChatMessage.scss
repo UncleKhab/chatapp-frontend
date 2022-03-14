@@ -1,0 +1,18 @@
+.chat-message {
+  display: flex;
+  font-size: 1.25rem;
+  padding-right: 1rem;
+  &.owner {
+    justify-content: flex-end;
+    p {
+      background-color: rgba(169, 169, 255, 0.432);
+    }
+  }
+  p {
+    background-color: rgba(169, 255, 222, 0.459);
+    margin-bottom: 0.2rem;
+    padding: 0.25rem 1rem;
+    border-radius: 10px;
+    max-width: 70%;
+  }
+}

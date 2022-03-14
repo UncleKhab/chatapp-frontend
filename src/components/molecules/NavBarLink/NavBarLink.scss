@@ -1,0 +1,10 @@
+.nav-bar-link {
+  color: var(--primary-color);
+  font-size: 1.25rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.8;
+  }
+}

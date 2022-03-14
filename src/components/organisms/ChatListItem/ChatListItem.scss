@@ -1,0 +1,18 @@
+.chat-item {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  box-shadow: 0px 1px 6px 3px var(--shadow-color);
+  gap: 1rem;
+  &__details {
+    label {
+      font-size: 1rem;
+      opacity: 0.9;
+      font-weight: normal;
+    }
+    p {
+      font-weight: bold;
+    }
+  }
+}
