@@ -15,6 +15,10 @@ const ChatMessageForm: React.FC<Props> = (props) => {
   const authContext = useContext(AuthContext);
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
+    if (!messageRef.current?.value) {
+      alert("Please provide a message before sending!");
+      return;
+    }
     const requestBody = {
       chatId: chatId,
       messageString: messageRef.current?.value,
